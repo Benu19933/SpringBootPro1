@@ -13,13 +13,13 @@ public class WishMessageGenarator {
 	public String registerMessage(String name){
 		int hour=calendar.get(calendar.HOUR_OF_DAY);
 		if(hour<12)
-			return "good nigth "+name;
+			return "good mong "+name;
 		else if(hour<16)
 			return "good afternoon "+name;
 		else if(hour<20)
 			return "good evening "+name;
 		else
-			return "good mong "+name;		
+			return "good monging "+name;		
 	
 	}
  
